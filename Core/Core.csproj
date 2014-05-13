@@ -39,26 +39,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Apply.cs" />
     <Compile Include="Branch.cs" />
-    <Compile Include="DropStartSpaces.cs" />
-    <Compile Include="DropStartSymbol.cs" />
-    <Compile Include="Epsilon.cs" />
-    <Compile Include="Fail.cs" />
-    <Compile Include="IParser.cs" />
     <Compile Include="ITree.cs" />
-    <Compile Include="Just.cs" />
     <Compile Include="Nil.cs" />
-    <Compile Include="Parens.cs" />
-    <Compile Include="Parallel.cs" />
     <Compile Include="IExpr.cs" />
-    <Compile Include="ParseResult.cs" />
+    <Compile Include="Parsers\Combinators\Apply.cs" />
+    <Compile Include="Parsers\Combinators\Epsilon.cs" />
+    <Compile Include="Parsers\Combinators\Fail.cs" />
+    <Compile Include="Parsers\Combinators\Just.cs" />
+    <Compile Include="Parsers\Combinators\Parallel.cs" />
+    <Compile Include="Parsers\Combinators\Satisfy.cs" />
+    <Compile Include="Parsers\Combinators\Sequential.cs" />
+    <Compile Include="Parsers\Combinators\Succeed.cs" />
+    <Compile Include="Parsers\DropStartSpaces.cs" />
+    <Compile Include="Parsers\DropStartSymbol.cs" />
+    <Compile Include="Parsers\IParser.cs" />
+    <Compile Include="Parsers\Parens.cs" />
+    <Compile Include="Parsers\ParseResult.cs" />
+    <Compile Include="Parsers\Symbol.cs" />
+    <Compile Include="Parsers\Token.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Satisfy.cs" />
-    <Compile Include="Sequential.cs" />
-    <Compile Include="Succeed.cs" />
-    <Compile Include="Symbol.cs" />
-    <Compile Include="Token.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

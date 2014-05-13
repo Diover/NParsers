@@ -1,7 +1,6 @@
-﻿using System;
 using System.Collections.Generic;
 
-namespace Core
+namespace Core.Parsers.Combinators
 {
     public class Fail<TIn, TOut> : IParser<TIn, TOut>
     {

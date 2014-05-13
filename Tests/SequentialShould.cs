@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Core;
+using Core.Parsers;
+using Core.Parsers.Combinators;
 using NUnit.Framework;
 
 namespace Tests

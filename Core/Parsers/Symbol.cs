@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Core
+namespace Core.Parsers
 {
     public class Symbol : Symbol<char, char>
     {

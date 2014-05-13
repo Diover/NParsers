@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Core
+namespace Core.Parsers.Combinators
 {
     public class Apply<TIn, TA, TB> : IParser<TIn, TB>
     {

@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using Core.Parsers.Combinators;
 
-namespace Core
+namespace Core.Parsers
 {
     public class Parens : IParser<char, ITree>
     {

@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 
-namespace Core
+namespace Core.Parsers.Combinators
 {
     public class Just<TIn, TOut> : IParser<TIn, TOut>
     {

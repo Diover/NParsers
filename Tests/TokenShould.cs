@@ -1,4 +1,5 @@
 ﻿using Core;
+using Core.Parsers;
 using NUnit.Framework;
 
 namespace Tests

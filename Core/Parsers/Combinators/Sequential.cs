@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Core
+namespace Core.Parsers.Combinators
 {
     public class Sequential<TIn, TOut1, TOut2, TOut3, TOut4> : IParser<TIn, Tuple<TOut1, Tuple<TOut2, Tuple<TOut3, TOut4>>>>
     {
