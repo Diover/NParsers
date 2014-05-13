@@ -50,7 +50,7 @@
     <Compile Include="Just.cs" />
     <Compile Include="Nil.cs" />
     <Compile Include="Parens.cs" />
-    <Compile Include="Parralel.cs" />
+    <Compile Include="Parallel.cs" />
     <Compile Include="IExpr.cs" />
     <Compile Include="ParseResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

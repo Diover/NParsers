@@ -44,9 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ParenthesisParserShould.cs" />
-    <Compile Include="ParserShould.cs" />
+    <Compile Include="ApplyShould.cs" />
+    <Compile Include="JustShould.cs" />
+    <Compile Include="ParensShould.cs" />
+    <Compile Include="ParallelShould.cs" />
+    <Compile Include="SequentialShould.cs" />
+    <Compile Include="SymbolShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TokenShould.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

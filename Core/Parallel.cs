@@ -3,11 +3,11 @@ using System.Linq;
 
 namespace Core
 {
-    public class Parralel<TIn, TOut> : IParser<TIn, TOut>
+    public class Parallel<TIn, TOut> : IParser<TIn, TOut>
     {
         private readonly IParser<TIn, TOut>[] _ps;
 
-        public Parralel(params IParser<TIn, TOut>[] ps)
+        public Parallel(params IParser<TIn, TOut>[] ps)
         {
             _ps = ps;
         }

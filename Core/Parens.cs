@@ -16,7 +16,7 @@ namespace Core
                                                                                           tuple => new Branch(tuple.Item2.Item1,
                                                                                                               tuple.Item2.Item2.Item2));
 
-            var p = new Parralel<char, ITree>(a,
+            var p = new Parallel<char, ITree>(a,
                                               new Epsilon<char, ITree>(new Nil()));
             return p.Parse(input);
         }
