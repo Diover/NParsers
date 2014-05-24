@@ -48,6 +48,7 @@
     <Compile Include="Parsers\Combinators\Fail.cs" />
     <Compile Include="Parsers\Combinators\Just.cs" />
     <Compile Include="Parsers\Combinators\Parallel.cs" />
+    <Compile Include="Parsers\Combinators\Right.cs" />
     <Compile Include="Parsers\Combinators\Satisfy.cs" />
     <Compile Include="Parsers\Combinators\Sequential.cs" />
     <Compile Include="Parsers\Combinators\Succeed.cs" />

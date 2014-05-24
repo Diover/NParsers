@@ -48,6 +48,7 @@
     <Compile Include="JustShould.cs" />
     <Compile Include="ParensShould.cs" />
     <Compile Include="ParallelShould.cs" />
+    <Compile Include="RightShould.cs" />
     <Compile Include="SequentialShould.cs" />
     <Compile Include="SymbolShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
