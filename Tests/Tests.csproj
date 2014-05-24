@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="ApplyShould.cs" />
     <Compile Include="JustShould.cs" />
+    <Compile Include="LeftShould.cs" />
     <Compile Include="ParensShould.cs" />
     <Compile Include="ParallelShould.cs" />
     <Compile Include="RightShould.cs" />
